@@ -1,5 +1,5 @@
 :root{
-    
+ --radius-md: 8px;   
 }
 
 
@@ -70,7 +70,7 @@ body, html {
 .image-stack img {
     width: 300px;
     height: auto;
-    border-radius: 10px;
+    border-radius: var(--radius-md);
     display: block;
 }
 
@@ -121,7 +121,7 @@ body, html {
     font-weight: bold;
     padding: 14px 32px;
     border: 2px solid white;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     transition: all 0.3s ease;
     margin: 0;
 }
